@@ -4299,7 +4299,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 25.4) (xy 241.3 25.4)
+			(xy 203.2 26.67) (xy 217.17 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4519,7 +4519,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 27.94) (xy 241.3 27.94)
+			(xy 203.2 29.21) (xy 217.17 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4529,7 +4529,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 30.48) (xy 264.16 30.48)
+			(xy 236.22 31.75) (xy 238.76 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4649,7 +4649,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 25.4) (xy 264.16 25.4)
+			(xy 236.22 26.67) (xy 238.76 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5109,6 +5109,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 34.29) (xy 213.36 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "709f65a1-777b-4a77-8705-cd69be0778e4")
+	)
+	(wire
+		(pts
 			(xy 71.12 35.56) (xy 90.17 35.56)
 		)
 		(stroke
@@ -5209,7 +5219,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 27.94) (xy 264.16 27.94)
+			(xy 236.22 29.21) (xy 238.76 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5509,6 +5519,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 34.29) (xy 213.36 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98bc7fc3-fe97-453f-b4de-04d378a3473d")
+	)
+	(wire
+		(pts
 			(xy 71.12 31.75) (xy 71.12 35.56)
 		)
 		(stroke
@@ -5739,7 +5759,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 30.48) (xy 241.3 30.48)
+			(xy 203.2 31.75) (xy 217.17 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5839,7 +5859,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 22.86) (xy 237.49 22.86)
+			(xy 217.17 24.13) (xy 213.36 24.13)
 		)
 		(stroke
 			(width 0)
@@ -5899,7 +5919,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 21.59) (xy 237.49 22.86)
+			(xy 213.36 20.32) (xy 213.36 24.13)
 		)
 		(stroke
 			(width 0)
@@ -6268,7 +6288,7 @@
 		(uuid "fc2843b7-8557-4128-ad59-c931058dbd0b")
 	)
 	(label "RS485-TX"
-		(at 227.33 30.48 0)
+		(at 203.2 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6318,7 +6338,7 @@
 		(uuid "1164cdf0-cb15-4ccc-b661-d9e1c41ba877")
 	)
 	(label "RS485-CON"
-		(at 227.33 25.4 0)
+		(at 203.2 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6728,7 +6748,7 @@
 		(uuid "91b19163-4e72-4395-9589-33ce93bbad61")
 	)
 	(label "RS485-RX"
-		(at 227.33 27.94 0)
+		(at 203.2 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7124,7 +7144,7 @@
 	)
 	(hierarchical_label "CON_RS485_G"
 		(shape input)
-		(at 264.16 30.48 0)
+		(at 238.76 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7289,7 +7309,7 @@
 	)
 	(hierarchical_label "CON_RS485_A"
 		(shape input)
-		(at 264.16 27.94 0)
+		(at 238.76 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7388,7 +7408,7 @@
 	)
 	(hierarchical_label "CON_RS485_B"
 		(shape input)
-		(at 264.16 25.4 0)
+		(at 238.76 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7592,7 +7612,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 237.49 21.59 90)
+		(at 213.36 20.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7600,9 +7620,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1360d431-1a98-4a13-9f87-8794544c8298")
 		(property "Reference" "#PWR019"
-			(at 241.3 21.59 0)
+			(at 213.36 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7613,7 +7634,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 231.648 21.59 90)
+			(at 213.36 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7623,7 +7644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 21.59 0)
+			(at 213.36 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7634,7 +7655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 21.59 0)
+			(at 213.36 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7645,7 +7666,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 237.49 21.59 0)
+			(at 213.36 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8418,7 +8439,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 33.02 270)
+		(at 213.36 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8426,9 +8447,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "461cc721-8ba0-4d17-8c03-422b288cecdb")
 		(property "Reference" "#PWR020"
-			(at 234.95 33.02 0)
+			(at 213.36 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8439,7 +8461,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.474 33.02 90)
+			(at 213.36 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8449,7 +8471,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 33.02 0)
+			(at 213.36 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8460,7 +8482,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 33.02 0)
+			(at 213.36 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8471,7 +8493,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 33.02 0)
+			(at 213.36 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9149,7 +9171,7 @@
 	)
 	(symbol
 		(lib_id "MG_CONNECTORS:RS485-PROTECT")
-		(at 247.65 27.94 0)
+		(at 223.52 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9160,7 +9182,7 @@
 		(fields_autoplaced yes)
 		(uuid "86274ef2-2e9a-42f1-8c3b-94c9160f2b39")
 		(property "Reference" "U4"
-			(at 250.825 16.51 0)
+			(at 226.695 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9170,7 +9192,7 @@
 			)
 		)
 		(property "Value" "RS485-PROTECT"
-			(at 250.825 19.05 0)
+			(at 226.695 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9180,7 +9202,7 @@
 			)
 		)
 		(property "Footprint" "MG_footprints:RS-485-PROTECT"
-			(at 247.65 27.94 0)
+			(at 223.52 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9191,7 +9213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 27.94 0)
+			(at 223.52 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9202,7 +9224,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 27.94 0)
+			(at 223.52 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9213,7 +9235,7 @@
 			)
 		)
 		(property "Part Number" "RS-485-PROTECT"
-			(at 247.65 27.94 0)
+			(at 223.52 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9224,7 +9246,7 @@
 			)
 		)
 		(property "Manufacturer" "Manicato Group"
-			(at 247.65 27.94 0)
+			(at 223.52 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9235,7 +9257,7 @@
 			)
 		)
 		(property "PART_NUMBER" ""
-			(at 247.65 27.94 0)
+			(at 223.52 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9246,7 +9268,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 247.65 27.94 0)
+			(at 223.52 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9257,7 +9279,7 @@
 			)
 		)
 		(property "VOL" ""
-			(at 247.65 27.94 0)
+			(at 223.52 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9267,7 +9289,7 @@
 			)
 		)
 		(property "TOL" ""
-			(at 247.65 27.94 0)
+			(at 223.52 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

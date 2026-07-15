@@ -2560,52 +2560,6 @@
 		)
 	)
 	(sheet
-		(at 165.1 50.8)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "a66ac97f-6328-4072-bc1c-343ef399acf4")
-		(property "Sheetname" "paul martinez"
-			(at 165.1 50.0884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "paulmartinez.kicad_sch"
-			(at 165.1 55.1946 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "PLC4UNI-GC1"
-				(path "/78be00cd-daf6-4f2a-9977-d3085e20b798"
-					(page "22")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 104.14 58.42)
 		(size 68.58 53.34)
 		(exclude_from_sim no)
